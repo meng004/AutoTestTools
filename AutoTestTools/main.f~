@@ -1,0 +1,15 @@
+ 
+      program ss
+
+            common gravity
+            real time1
+            integer(kind=8) a,b           
+            time1=10.0          
+            gravity=9.8
+            a=5
+            b=10
+            
+            print *,'callfunc1=',func1(time1)
+            call swap(a,b)
+            print *,'a=',a, 'b=',b
+        end
